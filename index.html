@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery Company</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #ff6600;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    .accordion {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .accordion h2 {
+      cursor: pointer;
+    }
+    .accordion img {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .item {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .item button {
+      padding: 10px 20px;
+      background-color: #ff6600;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Food Delivery Company</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Delivery History</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Signup</a></li>
+      </ul>
+      <label for="search">Search:</label>
+      <input type="text" id="search" placeholder="Search...">
+    </nav>
+  </header>
+  <div class="accordion">
+    <h2>New Items</h2>
+    <div class="content">
+      <img src="item1.jpg" alt="New Item 1">
+      <img src="item2.jpg" alt="New Item 2">
+      <img src="item3.jpg" alt="New Item 3">
+    </div>
+  </div>
+  <div class="item">
+    <h2>Item 1</h2>
+    <p>Description of item 1</p>
+    <button>Add to Cart</button>
+  </div>
+  <div class="item">
+    <h2>Item 2</h2>
+    <p>Description of item 2</p>
+    <button>Add to Cart</button>
+  </div>
+  <div class="item">
+    <h2>Item 3</h2>
+    <p>Description of item 3</p>
+    <button>Add to Cart</button>
+  </div>
+  <footer>
+    <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+  </footer>
+</body>
+</html>
